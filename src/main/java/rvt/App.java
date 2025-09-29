@@ -14,5 +14,10 @@ public class App {
         System.out.println("Write here your name: ");
         String name = scanner.nextLine();
         System.out.println("Hi, " + name);
+        //Program prints the number of seconds in the given number of days.
+        System.out.println("Write here number of days: ");
+        int days = Integer.valueOf(scanner.nextLine());
+        int how_much = (days * 86400);
+        System.out.println("In " + days + " days is " + how_much + " seconds!");
     }
 }
