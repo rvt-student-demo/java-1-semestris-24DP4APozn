@@ -37,7 +37,7 @@ public class SkaitluAnalize {
 
         if (count > 0) {
             double avg = (double) sum / count;
-
+            
             System.out.println();
             System.out.println("Ievadīto skaitļu skaits: " + count);
             System.out.println("Skaitļu summa: " + sum);
